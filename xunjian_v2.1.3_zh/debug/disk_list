@@ -1,0 +1,32 @@
++-----+---------+-----------+--------+-----------+-----------+-------+----------+---------+------------+--------+-----------------+---------------+-----------------------------+
+| ID  | HOST ID | HOST NAME | DEVICE | DISK TYPE |   BYTES   | USED  | IS CACHE | IS ROOT | POWER SAFE | STATUS | LIGHTING STATUS | ACTION STATUS |           CREATE            |
++-----+---------+-----------+--------+-----------+-----------+-------+----------+---------+------------+--------+-----------------+---------------+-----------------------------+
+| 509 | 6       | ceph-6    | sdb    | HDD       | 1.746 TiB | false | false    | false   | false      | active | disabled        | active        | 2020-07-27T06:45:44.074797Z |
+| 506 | 6       | ceph-6    | sda    | HDD       | 558.4 GiB | true  | false    | true    | false      | active | disabled        | active        | 2020-07-27T06:45:34.069361Z |
+| 504 | 6       | ceph-6    | sdf    | HDD       | 1.746 TiB | false | false    | false   | false      | active | disabled        | active        | 2020-07-27T06:45:29.063117Z |
+| 502 | 6       | ceph-6    | sde    | HDD       | 1.746 TiB | false | false    | false   | false      | active | disabled        | active        | 2020-07-27T06:45:24.134608Z |
+| 501 | 6       | ceph-6    | sdd    | HDD       | 1.746 TiB | false | false    | false   | false      | active | disabled        | active        | 2020-07-27T06:45:24.119365Z |
+| 500 | 6       | ceph-6    | sdc    | HDD       | 1.746 TiB | false | false    | false   | false      | active | disabled        | active        | 2020-07-27T06:45:24.103534Z |
+| 80  | 40      | ceph-1    | sdb    | SSD       | 1.747 TiB | true  | false    | false   | true       | active | off             | active        | 2020-07-27T02:42:13.518309Z |
+| 79  | 40      | ceph-1    | sda    | SSD       | 1.747 TiB | true  | false    | false   | true       | active | off             | active        | 2020-07-27T02:42:13.49671Z  |
+| 78  | 40      | ceph-1    | sdf    | HDD       | 558.4 GiB | true  | false    | true    | false      | active | disabled        | active        | 2020-07-27T02:42:13.475255Z |
+| 77  | 40      | ceph-1    | sde    | SSD       | 1.747 TiB | true  | false    | false   | true       | active | off             | active        | 2020-07-27T02:42:13.461212Z |
+| 76  | 40      | ceph-1    | sdd    | SSD       | 1.747 TiB | true  | false    | false   | true       | active | off             | active        | 2020-07-27T02:42:13.440024Z |
+| 75  | 40      | ceph-1    | sdc    | SSD       | 1.747 TiB | true  | false    | false   | true       | active | off             | active        | 2020-07-27T02:42:13.418112Z |
+| 39  | 3       | ceph-3    | sdd    | SSD       | 1.747 TiB | true  | false    | false   | true       | active | off             | active        | 2020-07-08T08:30:11.209744Z |
+| 38  | 3       | ceph-3    | sdc    | SSD       | 1.747 TiB | true  | false    | false   | true       | active | off             | active        | 2020-07-08T08:30:11.188663Z |
+| 37  | 3       | ceph-3    | sdb    | SSD       | 1.747 TiB | true  | false    | false   | true       | active | off             | active        | 2020-07-08T08:30:11.167419Z |
+| 36  | 3       | ceph-3    | sda    | SSD       | 1.747 TiB | true  | false    | false   | true       | active | off             | active        | 2020-07-08T08:30:11.145888Z |
+| 34  | 3       | ceph-3    | sdf    | HDD       | 558.4 GiB | true  | false    | true    | false      | active | disabled        | active        | 2020-07-08T08:30:11.110516Z |
+| 33  | 3       | ceph-3    | sde    | SSD       | 1.747 TiB | true  | false    | false   | true       | active | off             | active        | 2020-07-08T08:30:11.096465Z |
+| 29  | 6       | ceph-6    | sdd    | SSD       | 1.747 TiB | true  | false    | false   | true       | error  | on              | active        | 2020-07-08T08:29:17.128937Z |
+| 28  | 6       | ceph-6    | sdc    | SSD       | 1.747 TiB | true  | false    | false   | true       | error  | on              | active        | 2020-07-08T08:29:17.109039Z |
+| 27  | 6       | ceph-6    | sdb    | SSD       | 1.747 TiB | true  | false    | false   | true       | error  | on              | active        | 2020-07-08T08:29:17.088054Z |
+| 26  | 6       | ceph-6    | sda    | SSD       | 1.747 TiB | true  | false    | false   | true       | error  | on              | active        | 2020-07-08T08:29:17.067346Z |
+| 13  | 2       | ceph-2    | sdf    | HDD       | 558.4 GiB | true  | false    | true    | false      | active | disabled        | active        | 2020-07-08T08:28:36.173585Z |
+| 12  | 2       | ceph-2    | sde    | SSD       | 1.747 TiB | true  | false    | false   | true       | active | on              | active        | 2020-07-08T08:28:36.159681Z |
+| 11  | 2       | ceph-2    | sdd    | SSD       | 1.747 TiB | true  | false    | false   | true       | active | on              | active        | 2020-07-08T08:28:36.138437Z |
+| 10  | 2       | ceph-2    | sdc    | SSD       | 1.747 TiB | true  | false    | false   | true       | active | on              | active        | 2020-07-08T08:28:36.117641Z |
+| 9   | 2       | ceph-2    | sdb    | SSD       | 1.747 TiB | true  | false    | false   | true       | active | on              | active        | 2020-07-08T08:28:36.0967Z   |
+| 8   | 2       | ceph-2    | sda    | SSD       | 1.747 TiB | true  | false    | false   | true       | active | on              | active        | 2020-07-08T08:28:36.075252Z |
++-----+---------+-----------+--------+-----------+-----------+-------+----------+---------+------------+--------+-----------------+---------------+-----------------------------+

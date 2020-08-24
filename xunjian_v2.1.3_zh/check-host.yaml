@@ -1,0 +1,44 @@
+---
+- hosts:  all
+  remote_user: root
+  become: yes
+  become_method: sudo
+  vars:
+    log_path: /tmp
+ 
+  tasks:
+  - name: copy script to server
+    copy: src=./check-host.sh dest={{ log_path }}/check-host.sh mode=755
+
+  - name: copy get hardwareInfo script to server
+    copy: src=./hardware.pl dest={{ log_path }}/hardware.pl mode=755
+
+  - name: copy xsos script to server
+    copy: src=./xsos dest={{ log_path }}/xsos mode=755
+
+  - name: delete previous log
+    shell: sudo rm -f {{ log_path }}/log/*;rm -f /HostDailyCheck*
+
+  - name: run script
+    #become: yes
+    #become_method:  su
+    shell: /bin/bash -x /{{ log_path }}/check-host.sh
+
+  - name: find log
+    shell: (cd {{ log_path }}/log; find . -maxdepth 1 -type f) | cut -d'/' -f2
+    register: files_to_copy
+
+  - name: move log
+    shell: mv {{ log_path }}/log/* /
+
+  - name: get log
+    fetch: src=/{{ item }} dest={{ log_path }}/log/
+    with_items: files_to_copy.stdout_lines
+
+  - name: get kvmlog
+    fetch: src=/var/log/zstack/zstack-kvmagent.log dest={{ log_path }}/log/
+
+  - name: delete cache
+    #become: yes
+    #become_method:  su
+    shell: rm -f {{ log_path }}/check-host.sh;rm -f /HostDailyCheck* {{ log_path }}/hardware.pl;rm -f {{ log_path }}/xsos

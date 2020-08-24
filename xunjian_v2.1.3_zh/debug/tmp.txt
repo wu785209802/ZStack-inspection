@@ -1,0 +1,137 @@
+["inventories",0,"attachedClusterUuids",0]	"bed2f46ee9154e23b8eee121e85876b3"
+["inventories",0,"availableCapacity"]	2183632956075
+["inventories",0,"availablePhysicalCapacity"]	1635403169792
+["inventories",0,"createDate"]	"Jul 31, 2020 10:40:20 AM"
+["inventories",0,"datastore"]	"datastore-196"
+["inventories",0,"lastOpDate"]	"Aug 7, 2020 2:38:06 PM"
+["inventories",0,"mountPath"]	"VCenter"
+["inventories",0,"name"]	"datastore-1-7_修改名称"
+["inventories",0,"state"]	"Enabled"
+["inventories",0,"status"]	"Connected"
+["inventories",0,"totalCapacity"]	2992518463488
+["inventories",0,"totalPhysicalCapacity"]	2992518463488
+["inventories",0,"type"]	"VCenter"
+["inventories",0,"url"]	"ds:///vmfs/volumes/52c36b48-f363f905-cbc0-6cb3111b0918/"
+["inventories",0,"uuid"]	"00bda18ff7da49ec9190ad94d766a946"
+["inventories",0,"vCenterUuid"]	"d146d35ff9554433869544ce7cbfad5a"
+["inventories",0,"zoneUuid"]	"e712eac0878a42239f2ae24d98c68ae9"
+["inventories",1,"attachedClusterUuids",0]	"a2b03329e63a4aaeb309f817387fbfcb"
+["inventories",1,"availableCapacity"]	111937585152
+["inventories",1,"availablePhysicalCapacity"]	92159344640
+["inventories",1,"createDate"]	"Jul 31, 2020 10:40:20 AM"
+["inventories",1,"datastore"]	"datastore-12"
+["inventories",1,"lastOpDate"]	"Aug 7, 2020 2:38:06 PM"
+["inventories",1,"mountPath"]	"VCenter"
+["inventories",1,"name"]	"data-1-2-4-SSD"
+["inventories",1,"state"]	"Enabled"
+["inventories",1,"status"]	"Connected"
+["inventories",1,"totalCapacity"]	111937585152
+["inventories",1,"totalPhysicalCapacity"]	111937585152
+["inventories",1,"type"]	"VCenter"
+["inventories",1,"url"]	"ds:///vmfs/volumes/5ac1bde0-fb03ae00-d7ac-305a3a81dcef/"
+["inventories",1,"uuid"]	"16232650fe5c44ab89d3479dae7f7e8b"
+["inventories",1,"vCenterUuid"]	"d146d35ff9554433869544ce7cbfad5a"
+["inventories",1,"zoneUuid"]	"e712eac0878a42239f2ae24d98c68ae9"
+["inventories",2,"attachedClusterUuids",0]	"a2b03329e63a4aaeb309f817387fbfcb"
+["inventories",2,"availableCapacity"]	2998781957461
+["inventories",2,"availablePhysicalCapacity"]	2974015291392
+["inventories",2,"createDate"]	"Jul 31, 2020 10:40:20 AM"
+["inventories",2,"datastore"]	"datastore-13"
+["inventories",2,"lastOpDate"]	"Aug 7, 2020 2:38:07 PM"
+["inventories",2,"mountPath"]	"VCenter"
+["inventories",2,"name"]	"data-1-2-5"
+["inventories",2,"state"]	"Enabled"
+["inventories",2,"status"]	"Connected"
+["inventories",2,"totalCapacity"]	3000571527168
+["inventories",2,"totalPhysicalCapacity"]	3000571527168
+["inventories",2,"type"]	"VCenter"
+["inventories",2,"url"]	"ds:///vmfs/volumes/5ad98241-429c00a4-c4b0-305a3a81dcef/"
+["inventories",2,"uuid"]	"4b564a589a8f4197bf13b20f4dfed6a6"
+["inventories",2,"vCenterUuid"]	"d146d35ff9554433869544ce7cbfad5a"
+["inventories",2,"zoneUuid"]	"e712eac0878a42239f2ae24d98c68ae9"
+["inventories",3,"attachedClusterUuids",0]	"8f78838da97c43ac9c7161c92bdeba61"
+["inventories",3,"availableCapacity"]	1492632171959
+["inventories",3,"availablePhysicalCapacity"]	7862310010880
+["inventories",3,"createDate"]	"Jul 8, 2020 4:47:58 PM"
+["inventories",3,"fsid"]	"4ea2c957-58aa-4781-ac6e-9b333aa33db4"
+["inventories",3,"lastOpDate"]	"Jul 30, 2020 2:30:07 PM"
+["inventories",3,"mons",0,"createDate"]	"Jul 8, 2020 4:51:27 PM"
+["inventories",3,"mons",0,"hostname"]	"172.31.250.9"
+["inventories",3,"mons",0,"lastOpDate"]	"Jul 30, 2020 2:29:55 PM"
+["inventories",3,"mons",0,"monAddr"]	"172.16.100.9"
+["inventories",3,"mons",0,"monPort"]	6789
+["inventories",3,"mons",0,"monUuid"]	"a3bec7623ef84eae83c2a7ce8fcb6ea4"
+["inventories",3,"mons",0,"primaryStorageUuid"]	"8d4b554aeed7477ba6e8bd8d10c5b95e"
+["inventories",3,"mons",0,"sshPassword"]	"zstackts"
+["inventories",3,"mons",0,"sshPort"]	22
+["inventories",3,"mons",0,"sshUsername"]	"root"
+["inventories",3,"mons",0,"status"]	"Connected"
+["inventories",3,"mons",1,"createDate"]	"Jul 8, 2020 4:51:55 PM"
+["inventories",3,"mons",1,"hostname"]	"172.31.250.10"
+["inventories",3,"mons",1,"lastOpDate"]	"Jul 30, 2020 2:29:58 PM"
+["inventories",3,"mons",1,"monAddr"]	"172.16.100.10"
+["inventories",3,"mons",1,"monPort"]	6789
+["inventories",3,"mons",1,"monUuid"]	"1020c8300d2c45848d00aeb02e1497ee"
+["inventories",3,"mons",1,"primaryStorageUuid"]	"8d4b554aeed7477ba6e8bd8d10c5b95e"
+["inventories",3,"mons",1,"sshPassword"]	"zstackts"
+["inventories",3,"mons",1,"sshPort"]	22
+["inventories",3,"mons",1,"sshUsername"]	"root"
+["inventories",3,"mons",1,"status"]	"Connected"
+["inventories",3,"mountPath"]	"Ceph"
+["inventories",3,"name"]	"ceph-ssd"
+["inventories",3,"pools",0,"availableCapacity"]	7862310010880
+["inventories",3,"pools",0,"createDate"]	"Jul 8, 2020 4:47:58 PM"
+["inventories",3,"pools",0,"lastOpDate"]	"Jul 8, 2020 4:47:58 PM"
+["inventories",3,"pools",0,"poolName"]	"pool-3df93d8cd98442ce8dc975a8afa1dc5c"
+["inventories",3,"pools",0,"primaryStorageUuid"]	"8d4b554aeed7477ba6e8bd8d10c5b95e"
+["inventories",3,"pools",0,"replicatedSize"]	3
+["inventories",3,"pools",0,"totalCapacity"]	9478429736960
+["inventories",3,"pools",0,"type"]	"ImageCache"
+["inventories",3,"pools",0,"usedCapacity"]	1616119726080
+["inventories",3,"pools",0,"uuid"]	"a648c2e163f2416886bc3b960c2ffd16"
+["inventories",3,"pools",1,"availableCapacity"]	7862310010880
+["inventories",3,"pools",1,"createDate"]	"Jul 8, 2020 4:47:58 PM"
+["inventories",3,"pools",1,"lastOpDate"]	"Jul 8, 2020 4:47:58 PM"
+["inventories",3,"pools",1,"poolName"]	"pool-3df93d8cd98442ce8dc975a8afa1dc5c"
+["inventories",3,"pools",1,"primaryStorageUuid"]	"8d4b554aeed7477ba6e8bd8d10c5b95e"
+["inventories",3,"pools",1,"replicatedSize"]	3
+["inventories",3,"pools",1,"totalCapacity"]	9478429736960
+["inventories",3,"pools",1,"type"]	"Root"
+["inventories",3,"pools",1,"usedCapacity"]	1616119726080
+["inventories",3,"pools",1,"uuid"]	"9dc90eff0c004df08b529069793f59be"
+["inventories",3,"pools",2,"availableCapacity"]	7862310010880
+["inventories",3,"pools",2,"createDate"]	"Jul 8, 2020 4:47:58 PM"
+["inventories",3,"pools",2,"lastOpDate"]	"Jul 8, 2020 4:47:58 PM"
+["inventories",3,"pools",2,"poolName"]	"pool-3df93d8cd98442ce8dc975a8afa1dc5c"
+["inventories",3,"pools",2,"primaryStorageUuid"]	"8d4b554aeed7477ba6e8bd8d10c5b95e"
+["inventories",3,"pools",2,"replicatedSize"]	3
+["inventories",3,"pools",2,"totalCapacity"]	9478429736960
+["inventories",3,"pools",2,"type"]	"Data"
+["inventories",3,"pools",2,"usedCapacity"]	1616119726080
+["inventories",3,"pools",2,"uuid"]	"6060f9f787a844d1b8fedd6b94a497ab"
+["inventories",3,"state"]	"Enabled"
+["inventories",3,"status"]	"Connected"
+["inventories",3,"totalCapacity"]	9478429736960
+["inventories",3,"totalPhysicalCapacity"]	9478429736960
+["inventories",3,"type"]	"Ceph"
+["inventories",3,"url"]	"not used"
+["inventories",3,"uuid"]	"8d4b554aeed7477ba6e8bd8d10c5b95e"
+["inventories",3,"zoneUuid"]	"e712eac0878a42239f2ae24d98c68ae9"
+["inventories",4,"attachedClusterUuids",0]	"a2b03329e63a4aaeb309f817387fbfcb"
+["inventories",4,"availableCapacity"]	2989834108928
+["inventories",4,"availablePhysicalCapacity"]	1958461046784
+["inventories",4,"createDate"]	"Jul 31, 2020 10:40:20 AM"
+["inventories",4,"datastore"]	"datastore-11"
+["inventories",4,"lastOpDate"]	"Aug 7, 2020 2:38:06 PM"
+["inventories",4,"mountPath"]	"VCenter"
+["inventories",4,"name"]	"data-1-2-1"
+["inventories",4,"state"]	"Enabled"
+["inventories",4,"status"]	"Connected"
+["inventories",4,"totalCapacity"]	3000571527168
+["inventories",4,"totalPhysicalCapacity"]	3000571527168
+["inventories",4,"type"]	"VCenter"
+["inventories",4,"url"]	"ds:///vmfs/volumes/5a40d08a-55091828-ad9f-305a3a81dcef/"
+["inventories",4,"uuid"]	"b3cc19c5a1f74d499860c505e13d1ccc"
+["inventories",4,"vCenterUuid"]	"d146d35ff9554433869544ce7cbfad5a"
+["inventories",4,"zoneUuid"]	"e712eac0878a42239f2ae24d98c68ae9"
+["success"]	true
