@@ -1,0 +1,20 @@
+
+************************ check zsha2 status **********************
+This is not dual management node high availability
+
+************** check zstack-kvmagent.service status **************
+172.31.250.10	zstack-kvmagent.service	 failed
+172.18.3.220	zstack-kvmagent.service	 active
+172.31.250.9	zstack-kvmagent.service	 failed
+172.31.250.18	zstack-kvmagent.service	 active
+
+****************** check libvirtd.service status *****************
+172.31.250.10	libvirtd.service	 active
+172.18.3.220	libvirtd.service	 active
+172.31.250.9	libvirtd.service	 active
+172.31.250.18	libvirtd.service	 active
+
+************************* check chronyc **************************
+172.31.250.10	^* ceph-2                       10   8   377   208  -1465ns[-1656ns] +
+172.18.3.220	^* 172.31.250.10                11  10   377   441  +6598ns[+7031ns] +
+172.31.250.18	^* 172.31.250.10                11   7   377    99  -9313ns[  -11us] +

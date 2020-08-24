@@ -1,0 +1,46 @@
+************** check zstack-kvmagent.service status **************
+zstack-kvmagent.service: failed
+
+****************** check libvirtd.service status *****************
+libvirtd.service: active
+
+************************* check chronyc **************************
+
+210 Number of sources = 1
+
+  .-- Source mode  '^' = server, '=' = peer, '#' = local clock.
+ / .- Source state '*' = current synced, '+' = combined , '-' = not combined,
+| /   '?' = unreachable, 'x' = time may be in error, '~' = time too variable.
+||                                                 .- xxxx [ yyyy ] +/- zzzz
+||      Reachability register (octal) -.           |  xxxx = adjusted offset,
+||      Log2(Polling interval) --.      |          |  yyyy = measured offset,
+||                                \     |          |  zzzz = estimated error.
+||                                 |    |           \
+MS Name/IP address         Stratum Poll Reach LastRx Last sample               
+===============================================================================
+^? ceph-3                        0  10   377     -     +0ns[   +0ns] +/-    0ns
+
+Chrony服务配置:
+
+driftfile /var/lib/chrony/drift
+makestep 1.0 3
+rtcsync
+logdir /var/log/chrony
+allow 172.31.250.9/16
+local stratum 10
+server 172.31.250.10 iburst
+^? ceph-3                        0  10   377     -     +0ns[   +0ns] +/-    0ns
+Chrony_server_is_unreachable_please_check
+
+系统时间:
+      Local time: Thu 2020-08-13 10:22:36 CST
+  Universal time: Thu 2020-08-13 02:22:36 UTC
+        RTC time: Thu 2020-08-13 02:22:40
+       Time zone: Asia/Shanghai (CST, +0800)
+     NTP enabled: yes
+NTP synchronized: no
+ RTC in local TZ: no
+      DST active: n/a
+Thu 13 Aug 2020 10:22:41 AM CST  -0.938269 seconds
+
+检查结果：//tmp/log/HostDailyCheck-ceph-2-20200813.txt
