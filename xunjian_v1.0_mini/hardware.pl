@@ -10551,9 +10551,9 @@ if ($need_megarc || $want_megarc) {
     megarc() || omreport();
 }
 
-if ($need_megacli || $want_megacli) {
-    megacli() || omreport();
-}
+#if ($need_megacli || $want_megacli) {
+#    megacli() || omreport();
+#}
 
 if ($need_cissutil || $want_cissutil) {
     cissutil();
